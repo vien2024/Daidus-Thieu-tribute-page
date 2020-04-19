@@ -1,0 +1,132 @@
+<html>
+  <head>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <style>
+     .row {
+       display: flex;
+       flex-wrap: wrap;
+       padding: 0 4px;
+      }
+
+    /* Create four equal columns that sits next to each other */
+     .column {
+       flex: 25%;
+       max-width: 25%;
+       padding: 0 4px;
+      }
+
+     .column img {
+       margin-top: 8px;
+       vertical-align: middle;
+       width: 100%;
+      }
+
+     /* Responsive layout - makes a two column-layout instead of four columns */
+       @media screen and (max-width: 800px) {
+        .column {
+          flex: 50%;
+          max-width: 50%;
+        }
+       }
+
+     /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+       @media screen and (max-width: 600px) {
+         .column {
+         flex: 100%;
+         max-width: 100%;
+        }
+       }
+     
+         #img-caption {
+            font-size: 30px;
+           }
+         .center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+   }
+         #tribute-link {
+             color: brown;
+             font-weight: bold;
+            }
+   </style>
+  </head>
+  <body>
+    <div id="main">
+      <h1 id="title" class="center">Trinh Cong Son</h1>
+      <div id="img-div" style="margin: auto">
+        <div class="row">
+         <div class= "column">
+         </div>
+          <div class="column">
+            <img src="Trinh_Cong_Son.jfif" alt="Trinh Cong Son portrait." id="image">
+            <img src="Trinh_Cong_Son_1.jpg" alt="Trinh Cong Son portrait." id="image">
+            <img src="Trinh_Cong_Son_2.jpg" alt="Trinh Cong Son portrait." id="image">
+            <img src="Trinh_Cong_Son_3.jpg" alt="Trinh Cong Son portrait." id="image">
+            <img src="Trinh_Cong_Son_7.jfif" alt="Trinh Cong Son portrait." id="image">
+            <img src="Trinh_Cong_Son_9.jpg" alt="Trinh Cong Son portrait." id="image">
+          </div>
+          <div class="column"
+            <img src="Trinh_Cong_Son_4.jfif" alt="Trinh Cong Son portrait." id="image">
+            <img src="Trinh_Cong_Son_8.jpg" alt="Trinh Cong Son portrait." id="image">
+            <img src="Trinh_Cong_Son_5.jfif" alt="Trinh Cong Son portrait." id="image">
+            <img src="Trinh_Cong_Son_6.jpg" alt="Trinh Cong Son portrait." id="image">
+          </div>
+          <div class="column"></div>
+        </div>
+        <p id="img-caption" class="center"><em>One of the greatest composers in Vietnam</em></p>
+      </div>
+      <div id="tribute-info" class="center">
+        <p>Hạ Trắng</p>
+        <p>Gọi nắng!</p>
+        <p>Trên vai em gầy</p>
+        <p>Đường xa áo bay
+        <p>Nắng qua mắt buồn
+        <p>Lòng hoa bướm say
+        <p>Lối em đi về
+        <p>Trời không có mây
+        <p>Đường đi suốt mùa
+        <p>Nắng lên thắp đầy
+
+        <p>Gọi nắng!
+        <p>Cho cơn mê chiều
+        <p>Nhiều hoa trắng bay
+        <p>Cho tay em dài
+        <p>Gầy thêm nắng mai
+        <p>Bước chân em về
+        <p>Nào anh có hay
+        <p>Gọi tên cho nắng
+        <p>Chết trên sông dài
+
+        <p>Thôi xin ơn đời
+        <p>Trong cơn mê này
+        <p>Gọi mùa thu tới
+        <p>Tôi đưa em về
+        <p>Chân em bước nhẹ
+        <p>Trời buồn gió cao
+        <p>Đời xin có nhau
+        <p>Dài cho mãi sau
+        <p>Nắng không gọi sầu
+        <p>Áo xưa dù nhàu
+        <p>Cũng xin bạc đầu
+        <p>Gọi mãi tên nhau
+
+        <p>Gọi nắng!
+        <p>Cho tóc em cài
+        <p>Loài hoa nắng rơi
+        <p>Nắng đưa em về
+        <p>Miền cao gió bay
+        <p>Áo em bây giờ
+        <p>Mờ xa nẻo mây
+        <p>Gọi tên em mãi
+        <p>Suốt cơn mê này...
+      </div>
+      <div class="center">
+      <a id="tribute-link" href="https://en.wikipedia.org/wiki/Tr%E1%BB%8Bnh_C%C3%B4ng_S%C6%A1n"  target="_blank">
+        Learn more about Trinh Cong Son and his work.
+      </a>
+      </div>
+    </div>
+  </body>
+</html>
